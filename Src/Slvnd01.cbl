@@ -1,0 +1,9 @@
+000100*---------------------------------
+000200* SLVND01.CBL
+000300*---------------------------------
+000400     SELECT VENDOR-FILE
+000500         ASSIGN TO "vendor"
+000600         ORGANIZATION IS INDEXED
+000700         RECORD KEY IS VENDOR-NUMBER
+000800         ACCESS MODE IS DYNAMIC.
+000900

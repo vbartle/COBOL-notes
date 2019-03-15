@@ -1,0 +1,9 @@
+000100*---------------------------------
+000200* SLSTATE.CBL
+000300*---------------------------------
+000400     SELECT STATE-FILE
+000500         ASSIGN TO "STATE"
+000600         ORGANIZATION IS INDEXED
+000700         RECORD KEY IS STATE-CODE
+000800         ACCESS MODE IS DYNAMIC.
+000900

@@ -1,0 +1,13 @@
+000100*---------------------------------
+000200* Fields for CHECK-TIME
+000300*---------------------------------
+000400 77  VALID-TIME-FLAG      PIC X.
+000500     88  TIME-IS-INVALID  VALUE "N".
+000600     88  TIME-IS-VALID    VALUE "Y".
+000700
+000800 01  TIME-HHMMSS        PIC 9(6).
+000900 01  FILLER REDEFINES TIME-HHMMSS.
+001000     05  TIME-HH        PIC 99.
+001100     05  TIME-MM        PIC 99.
+001200     05  TIME-SS        PIC 99.
+001300

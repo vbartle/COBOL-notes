@@ -1,0 +1,16 @@
+000100*---------------------------------
+000200* FDVND01.CBL
+000300*---------------------------------
+000400 FD  VENDOR-FILE
+000500     LABEL RECORDS ARE STANDARD.
+000600 01  VENDOR-RECORD.
+000700     05  VENDOR-NUMBER            PIC 9(5).
+000800     05  VENDOR-NAME              PIC X(30).
+000900     05  VENDOR-ADDRESS-1         PIC X(30).
+001000     05  VENDOR-ADDRESS-2         PIC X(30).
+001100     05  VENDOR-CITY              PIC X(20).
+001200     05  VENDOR-STATE             PIC X(2).
+001300     05  VENDOR-ZIP               PIC X(10).
+001400     05  VENDOR-CONTACT           PIC X(30).
+001500     05  VENDOR-PHONE             PIC X(15).
+001600
